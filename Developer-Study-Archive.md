@@ -34,19 +34,19 @@ Python 기반 데이터 분석, 머신러닝, 딥러닝, 자연어 처리와 LLM
 
 ## Tech Stack
 
-| Category | Skills |
-| --- | --- |
-| Language | Python, Java, SQL, JavaScript |
-| Data Analysis | Pandas, NumPy |
-| Machine Learning | Scikit-learn |
-| Deep Learning | TensorFlow, Keras, ANN, DNN, RNN, LSTM, TextCNN |
-| NLP & Transformer | Keras Tokenizer, KLUE-BERT, KoELECTRA, KcELECTRA |
-| LLM | Ollama, Gemma, Llama, LangChain, Prompt Engineering |
-| Visualization | Matplotlib, Seaborn |
-| Backend | Spring Boot, Flask, REST API, JDBC |
-| Frontend | React, React Router, Axios |
-| Database | Oracle Database |
-| Collaboration | Git, GitHub, Pull Request |
+| Category          | Skills                                              |
+| ----------------- | --------------------------------------------------- |
+| Language          | Python, Java, SQL, JavaScript                       |
+| Data Analysis     | Pandas, NumPy                                       |
+| Machine Learning  | Scikit-learn                                        |
+| Deep Learning     | TensorFlow, Keras, ANN, DNN, RNN, LSTM, TextCNN     |
+| NLP & Transformer | Keras Tokenizer, KLUE-BERT, KoELECTRA, KcELECTRA    |
+| LLM               | Ollama, Gemma, Llama, LangChain, Prompt Engineering |
+| Visualization     | Matplotlib, Seaborn                                 |
+| Backend           | Spring Boot, Flask, REST API, JDBC                  |
+| Frontend          | React, React Router, Axios                          |
+| Database          | Oracle Database                                     |
+| Collaboration     | Git, GitHub, Pull Request                           |
 
 <br>
 
@@ -77,11 +77,11 @@ Python 기반 데이터 분석, 머신러닝, 딥러닝, 자연어 처리와 LLM
 
 #### 머신러닝 모델 유형
 
-| 유형 | 설명 | 활용 모델 | 성능 평가 |
-| --- | --- | --- | --- |
-| 분류(Classification) | 데이터를 정해진 범주로 예측하는 방식 | Logistic Regression, Decision Tree, Random Forest, SVM, KNN | Accuracy, Precision, Recall, F1-score, Confusion Matrix |
-| 회귀(Regression) | 연속적인 수치 값을 예측하는 방식 | Linear Regression, Random Forest Regressor, Gradient Boosting Regressor | MAE, MSE, RMSE, R2 Score |
-| 군집(Clustering) | 정답 라벨 없이 데이터의 유사한 그룹을 찾는 방식 | K-Means, DBSCAN, Hierarchical Clustering | Silhouette Score, 군집 분포 시각화 |
+| 유형                 | 설명                                            | 활용 모델                                                               | 성능 평가                                               |
+| -------------------- | ----------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------- |
+| 분류(Classification) | 데이터를 정해진 범주로 예측하는 방식            | Logistic Regression, Decision Tree, Random Forest, SVM, KNN             | Accuracy, Precision, Recall, F1-score, Confusion Matrix |
+| 회귀(Regression)     | 연속적인 수치 값을 예측하는 방식                | Linear Regression, Random Forest Regressor, Gradient Boosting Regressor | MAE, MSE, RMSE, R2 Score                                |
+| 군집(Clustering)     | 정답 라벨 없이 데이터의 유사한 그룹을 찾는 방식 | K-Means, DBSCAN, Hierarchical Clustering                                | Silhouette Score, 군집 분포 시각화                      |
 
 분류 모델은 예측 결과가 실제 클래스와 얼마나 일치하는지뿐만 아니라, Precision과 Recall을 함께 확인하여 오탐과 미탐의 균형을 평가했습니다.  
 회귀 모델은 실제 값과 예측 값의 차이를 MAE, MSE, RMSE로 비교하고, R2 Score를 통해 모델이 데이터를 얼마나 잘 설명하는지 확인했습니다.  
@@ -92,15 +92,15 @@ Python 기반 데이터 분석, 머신러닝, 딥러닝, 자연어 처리와 LLM
 딥러닝은 인공신경망을 기반으로 복잡한 데이터의 특징을 자동으로 학습하는 머신러닝의 한 분야입니다.  
 TensorFlow와 Keras를 활용하여 ANN, DNN, CNN 모델의 구조를 학습하고, 데이터 특성에 따라 분류와 회귀 문제에 적용했습니다. 또한 LLM의 기본 개념과 자연어 처리 분야에서의 활용 방식을 함께 학습했습니다.
 
-| 유형 | 설명 | 주요 개념 | 성능 평가 |
-| --- | --- | --- | --- |
-| ANN 분류 모델 | 입력 데이터를 여러 클래스 중 하나로 예측하는 신경망 모델 | Dense Layer, Activation Function, Cross Entropy, Softmax/Sigmoid | Accuracy, Precision, Recall, F1-score, Loss |
-| ANN 회귀 모델 | 입력 데이터를 기반으로 연속적인 수치 값을 예측하는 신경망 모델 | Dense Layer, ReLU, MSE Loss, Optimizer | MAE, MSE, RMSE, Loss |
-| DNN 모델 | 여러 은닉층을 쌓아 복잡한 비선형 패턴을 학습하는 심층신경망 모델 | Hidden Layer, Backpropagation, Dropout, Batch Normalization | Accuracy, Loss, MAE, RMSE |
-| RNN/LSTM 모델 | 텍스트처럼 순서가 있는 데이터의 문맥과 흐름을 학습하는 모델 | Embedding, Sequence, Hidden State, LSTM Unit | Accuracy, Precision, Recall, F1-score, Loss |
-| CNN/TextCNN 모델 | 이미지 또는 텍스트의 지역적 패턴과 핵심 특징을 추출하는 모델 | Convolution Layer, Pooling, Filter, Feature Map | Accuracy, Precision, Recall, F1-score, Loss |
-| Transformer 모델 | Attention을 기반으로 문장 전체의 관계와 문맥을 학습하는 모델 | Self-Attention, Tokenizer, Fine-tuning | Accuracy, Macro F1-score, Loss |
-| LLM | 대규모 텍스트 데이터를 기반으로 자연어를 이해하고 생성하는 언어 모델 | Token, Embedding, Transformer, Prompt Engineering | 응답 정확성, 일관성, 문맥 이해도, 활용 목적 적합성 |
+| 유형             | 설명                                                                 | 주요 개념                                                        | 성능 평가                                          |
+| ---------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------- |
+| ANN 분류 모델    | 입력 데이터를 여러 클래스 중 하나로 예측하는 신경망 모델             | Dense Layer, Activation Function, Cross Entropy, Softmax/Sigmoid | Accuracy, Precision, Recall, F1-score, Loss        |
+| ANN 회귀 모델    | 입력 데이터를 기반으로 연속적인 수치 값을 예측하는 신경망 모델       | Dense Layer, ReLU, MSE Loss, Optimizer                           | MAE, MSE, RMSE, Loss                               |
+| DNN 모델         | 여러 은닉층을 쌓아 복잡한 비선형 패턴을 학습하는 심층신경망 모델     | Hidden Layer, Backpropagation, Dropout, Batch Normalization      | Accuracy, Loss, MAE, RMSE                          |
+| RNN/LSTM 모델    | 텍스트처럼 순서가 있는 데이터의 문맥과 흐름을 학습하는 모델          | Embedding, Sequence, Hidden State, LSTM Unit                     | Accuracy, Precision, Recall, F1-score, Loss        |
+| CNN/TextCNN 모델 | 이미지 또는 텍스트의 지역적 패턴과 핵심 특징을 추출하는 모델         | Convolution Layer, Pooling, Filter, Feature Map                  | Accuracy, Precision, Recall, F1-score, Loss        |
+| Transformer 모델 | Attention을 기반으로 문장 전체의 관계와 문맥을 학습하는 모델         | Self-Attention, Tokenizer, Fine-tuning                           | Accuracy, Macro F1-score, Loss                     |
+| LLM              | 대규모 텍스트 데이터를 기반으로 자연어를 이해하고 생성하는 언어 모델 | Token, Embedding, Transformer, Prompt Engineering                | 응답 정확성, 일관성, 문맥 이해도, 활용 목적 적합성 |
 
 딥러닝 모델 학습 과정에서는 손실 함수(Loss Function), 활성화 함수(Activation Function), 옵티마이저(Optimizer), Epoch, Batch Size 등의 개념을 학습했습니다.  
 DNN은 은닉층을 깊게 구성하여 복잡한 패턴을 학습하는 구조로 이해했으며, CNN은 Convolution과 Pooling 과정을 통해 이미지 데이터의 특징을 추출하는 방식으로 학습했습니다.  
@@ -126,15 +126,15 @@ LLM은 대규모 언어 데이터를 기반으로 문장을 이해하고 생성�
 
 모델은 단일 지표만으로 결정하지 않고 여러 평가 결과를 함께 확인했습니다.
 
-| 평가 항목 | 확인 목적 |
-| --- | --- |
-| Training/Validation Loss | 학습 수렴 여부와 과적합 확인 |
-| Accuracy | 전체 예측 중 정답의 비율 확인 |
-| Precision | 특정 클래스로 예측한 결과의 정확성 확인 |
-| Recall | 실제 클래스 데이터를 놓치지 않는지 확인 |
-| Macro F1-score | 클래스별 성능을 동일한 비중으로 종합 평가 |
-| Confusion Matrix | 어떤 클래스끼리 자주 혼동하는지 분석 |
-| 처리 시간 | 전체 실행 시간과 민원 1건당 평균·최소·최대 시간 확인 |
+| 평가 항목                | 확인 목적                                            |
+| ------------------------ | ---------------------------------------------------- |
+| Training/Validation Loss | 학습 수렴 여부와 과적합 확인                         |
+| Accuracy                 | 전체 예측 중 정답의 비율 확인                        |
+| Precision                | 특정 클래스로 예측한 결과의 정확성 확인              |
+| Recall                   | 실제 클래스 데이터를 놓치지 않는지 확인              |
+| Macro F1-score           | 클래스별 성능을 동일한 비중으로 종합 평가            |
+| Confusion Matrix         | 어떤 클래스끼리 자주 혼동하는지 분석                 |
+| 처리 시간                | 전체 실행 시간과 민원 1건당 평균·최소·최대 시간 확인 |
 
 Best Model은 Accuracy만 보지 않고 Validation Loss, Macro F1-score, 클래스별 Recall, 과적합 여부와 처리 시간을 종합하여 선정했습니다.
 
@@ -342,17 +342,17 @@ AI 분석 단계에는 STT, 비속어 탐지, 비표준어 변환, 민원 카테
 
 #### 민원 9개 대분류
 
-| 번호 | 대분류 |
-| ---: | --- |
-| 1 | 지자체_도시시설 |
-| 2 | 지자체_환경위생 |
-| 3 | 지자체_교통안전 |
-| 4 | 지자체_복지안전 |
-| 5 | 기관_행정민원 |
-| 6 | 지자체_행정세무 |
-| 7 | 지자체_지역경제 |
-| 8 | 지자체_건축도시 |
-| 9 | 기관_일반소관확인 |
+| 번호 | 대분류             |
+| ---: | ------------------ |
+|    1 | 지자체\_도시시설   |
+|    2 | 지자체\_환경위생   |
+|    3 | 지자체\_교통안전   |
+|    4 | 지자체\_복지안전   |
+|    5 | 기관\_행정민원     |
+|    6 | 지자체\_행정세무   |
+|    7 | 지자체\_지역경제   |
+|    8 | 지자체\_건축도시   |
+|    9 | 기관\_일반소관확인 |
 
 #### 데이터 정제 및 라벨링 원칙
 
@@ -368,17 +368,17 @@ AI 분석 단계에는 STT, 비속어 탐지, 비표준어 변환, 민원 카테
 
 정제된 주요 학습 데이터 30,000건의 클래스 분포는 다음과 같습니다.
 
-| 대분류 | 데이터 수 |
-| --- | ---: |
-| 지자체_도시시설 | 9,990 |
-| 지자체_환경위생 | 5,885 |
-| 지자체_교통안전 | 4,118 |
-| 지자체_복지안전 | 3,022 |
-| 기관_행정민원 | 1,729 |
-| 지자체_행정세무 | 1,611 |
-| 지자체_지역경제 | 1,443 |
-| 지자체_건축도시 | 1,411 |
-| 기관_일반소관확인 | 791 |
+| 대분류             | 데이터 수 |
+| ------------------ | --------: |
+| 지자체\_도시시설   |     9,990 |
+| 지자체\_환경위생   |     5,885 |
+| 지자체\_교통안전   |     4,118 |
+| 지자체\_복지안전   |     3,022 |
+| 기관\_행정민원     |     1,729 |
+| 지자체\_행정세무   |     1,611 |
+| 지자체\_지역경제   |     1,443 |
+| 지자체\_건축도시   |     1,411 |
+| 기관\_일반소관확인 |       791 |
 
 클래스 수의 차이가 크기 때문에 전체 Accuracy와 함께 Macro F1-score, 클래스별 Recall과 Confusion Matrix를 확인하는 것이 중요합니다.
 
@@ -388,28 +388,28 @@ AI 분석 단계에는 STT, 비속어 탐지, 비표준어 변환, 민원 카테
 
 #### 주요 AI 기능
 
-| 기능 | 목적 | 적용 방식 |
-| --- | --- | --- |
-| STT | 음성 민원을 텍스트로 변환 | 음성 입력 전처리 단계에서 적용 |
-| 비속어 탐지 | 부적절한 표현 차단 및 경고 | RNN/LSTM, CNN, DNN 기반 분류 비교 |
-| 비표준어 변환 | 비표준 표현을 표준어로 정규화 | 비표준어-표준어 사전 및 단어 단위 변환 |
-| 민원 대분류 | 민원을 9개 행정 분야로 분류 | RNN, TextCNN, DNN, Transformer, LLM 비교 |
-| 과분리 판단 | 단일 라벨과 다중 라벨 여부 결정 | 서로 다른 행정 조치의 존재 여부 확인 |
-| 담당 부서 추천 | 분류 결과를 실제 처리 부서와 연결 | 대분류와 부서 그룹 매핑 |
-| 문장·키워드 변환 | 답변 작성과 요약 업무 지원 | 키워드→문장, 문장→키워드 변환 |
+| 기능             | 목적                              | 적용 방식                                |
+| ---------------- | --------------------------------- | ---------------------------------------- |
+| STT              | 음성 민원을 텍스트로 변환         | 음성 입력 전처리 단계에서 적용           |
+| 비속어 탐지      | 부적절한 표현 차단 및 경고        | RNN/LSTM, CNN, DNN 기반 분류 비교        |
+| 비표준어 변환    | 비표준 표현을 표준어로 정규화     | 비표준어-표준어 사전 및 단어 단위 변환   |
+| 민원 대분류      | 민원을 9개 행정 분야로 분류       | RNN, TextCNN, DNN, Transformer, LLM 비교 |
+| 과분리 판단      | 단일 라벨과 다중 라벨 여부 결정   | 서로 다른 행정 조치의 존재 여부 확인     |
+| 담당 부서 추천   | 분류 결과를 실제 처리 부서와 연결 | 대분류와 부서 그룹 매핑                  |
+| 문장·키워드 변환 | 답변 작성과 요약 업무 지원        | 키워드→문장, 문장→키워드 변환            |
 
 #### 딥러닝 및 Transformer 모델 비교
 
 9개 민원 대분류 실험에서는 동일한 전처리와 데이터 분할 기준을 적용해 모델 성능을 비교했습니다. Keras 모델은 어휘 수 10,000개와 문장 길이 40을 기준으로 전처리하고, Transformer는 최대 입력 길이 128을 사용했습니다. 데이터는 학습·검증·테스트를 6:2:2로 분리하고 클래스 비율을 유지하도록 Stratified Split을 적용했습니다.
 
-| 모델 | Test Accuracy |
-| --- | ---: |
-| RNN(LSTM) | 78.43% |
-| TextCNN | 78.00% |
-| DNN | 76.85% |
-| KLUE-BERT | 77.23% |
-| KoELECTRA | 77.00% |
-| KcELECTRA | 76.90% |
+| 모델      | Test Accuracy |
+| --------- | ------------: |
+| RNN(LSTM) |        78.43% |
+| TextCNN   |        78.00% |
+| DNN       |        76.85% |
+| KLUE-BERT |        77.23% |
+| KoELECTRA |        77.00% |
+| KcELECTRA |        76.90% |
 
 RNN/LSTM은 문장의 순서를 반영하는 장점이 있고, TextCNN은 핵심 구문 패턴을 빠르게 추출할 수 있습니다. DNN은 구조가 단순하고 학습 속도가 빠르지만 단어 순서와 긴 문맥을 직접 반영하기 어렵습니다. Transformer는 문장 전체의 관계를 잘 이해하지만 학습 자원과 시간이 더 필요합니다.
 
@@ -417,17 +417,17 @@ RNN/LSTM은 문장의 순서를 반영하는 장점이 있고, TextCNN은 핵심
 
 Ollama에서 여러 Gemma·Llama 모델에 동일한 공통 프롬프트를 적용하고, 100건의 테스트 데이터로 정확도를 비교했습니다.
 
-| 순위 | 모델 | 정답 | 오답 | 정확도 |
-| ---: | --- | ---: | ---: | ---: |
-| 1 | gemma4:12b | 90 | 10 | 90% |
-| 2 | gemma4 | 77 | 23 | 77% |
-| 2 | gemma4:e4b | 77 | 23 | 77% |
-| 4 | gemma2:9b | 76 | 24 | 76% |
-| 5 | gemma3:12b | 74 | 26 | 74% |
-| 6 | gemma3 | 65 | 35 | 65% |
-| 7 | llama3.1 | 64 | 36 | 64% |
-| 8 | llama3 | 56 | 44 | 56% |
-| 9 | gemma | 43 | 57 | 43% |
+| 순위 | 모델       | 정답 | 오답 | 정확도 |
+| ---: | ---------- | ---: | ---: | -----: |
+|    1 | gemma4:12b |   90 |   10 |    90% |
+|    2 | gemma4     |   77 |   23 |    77% |
+|    2 | gemma4:e4b |   77 |   23 |    77% |
+|    4 | gemma2:9b  |   76 |   24 |    76% |
+|    5 | gemma3:12b |   74 |   26 |    74% |
+|    6 | gemma3     |   65 |   35 |    65% |
+|    7 | llama3.1   |   64 |   36 |    64% |
+|    8 | llama3     |   56 |   44 |    56% |
+|    9 | gemma      |   43 |   57 |    43% |
 
 현재 실험에서는 `gemma4:12b`가 가장 높은 90% 정확도를 기록했습니다. 목표 정확도 95% 이상을 위해 오분류 사례를 분석하고, 분류 규칙과 Few-shot 예시의 적용 범위를 조정하는 실험을 진행했습니다.
 
@@ -539,7 +539,7 @@ payload = {
 대규모 학습 데이터가 부족한 경우에는 사전 기반 방법을 우선 적용하고, 실제 민원에서 자주 등장하는 비표준 표현을 계속 추가하는 방식으로 구축합니다.
 
 1. 공개 표준어·비표준어 자료와 프로젝트 데이터에서 표현 쌍을 수집합니다.
-2. `비표준어 → 표준어` 매핑 사전을 만듭니다.
+2. 비표준어 → 표준어 매핑 사전을 만듭니다.
 3. 문장을 형태소 또는 단어 단위로 분리하여 사전에 있는 표현을 변환합니다.
 4. 띄어쓰기, 반복 문자, 자모 분리, 구어체 변형 규칙을 추가합니다.
 5. 변환 전후 문장을 사람이 검수하여 의미가 달라지는 오류를 제거합니다.

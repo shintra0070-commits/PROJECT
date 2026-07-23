@@ -1,0 +1,231 @@
+# ===========================
+# React / Node.js
+# ===========================
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# ===========================
+# Spring Boot / Gradle / Maven
+# ===========================
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# application secrets
+**/src/main/resources/application-secret*.properties
+**/src/main/resources/application-secret*.yml
+**/src/main/resources/application-local*.properties
+**/src/main/resources/application-local*.yml
+
+# ===========================
+# IDE
+# ===========================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+!bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===========================
+# Python (Flask / ML)
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.egg-info/
+dist/
+eggs/
+.eggs/
+*.egg
+
+# Flask
+instance/
+.webassets-cache
+flask_session/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===========================
+# Machine Learning / AI
+# ===========================
+
+# 학습된 모델 파일 (대용량)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.tflite
+
+# 데이터셋 (대용량)
+data/raw/
+data/processed/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.npz
+*.npy
+*.keras
+*.h5
+!**/4조 정제 데이터/**/*.csv
+!**/프로젝트_최종폴더/**
+
+# MLflow / W&B / 실험 로그
+mlruns/
+wandb/
+runs/
+logs/
+outputs/
+checkpoints/
+
+# ===========================
+# SQL / Oracle DB
+# ===========================
+
+# Oracle 접속 정보
+tnsnames.ora
+sqlnet.ora
+wallet/
+*.wallet
+
+# DB 덤프 파일 (대용량)
+*.sql.gz
+*.dmp
+*.dump
+*.bak
+
+# DB 설정 파일 (비밀번호 포함 가능)
+db-config.properties
+database.yml
+
+# ===========================
+# 보안 / 비밀 정보
+# ===========================
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets/
+*secret*
+*password*
+*credentials*
+config/local.yml
+config/local.properties
+
+# ===========================
+# OS 생성 파일
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+
+# ===========================
+# 기타
+# ===========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+tmp/
+temp/
+utill/

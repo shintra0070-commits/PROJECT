@@ -308,7 +308,7 @@ git push origin 브랜치명
 
 #### 기술 스택
 
-`Python` `Pandas` `Numpy` `Scikit-learn` `Matplotlib` `Seaborn` `Spring Boot` `xgboost` `React` `Oracle Database` `Git` `GitHub`
+`Python` `Pandas` `Numpy` `Scikit-learn` `Matplotlib` `Seaborn` `Flask` `Spring Boot` `XgBoost` `React` `Oracle Database` `Git` `GitHub`
 
 <br>
 

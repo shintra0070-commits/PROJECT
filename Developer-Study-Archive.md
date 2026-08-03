@@ -308,7 +308,7 @@ git push origin 브랜치명
 
 #### 기술 스택
 
-`Python` `Spring Boot` `React` `Oracle Database` `Git` `GitHub`
+`Python` `Pandas` `Numpy` `Scikit-learn` `Matplotlib` `Seaborn` `Spring Boot` `xgboost` `React` `Oracle Database` `Git` `GitHub`
 
 <br>
 
@@ -333,5 +333,4 @@ BDI(Baltic Dry Index) 운임지수 데이터를 수집하고 전처리한 뒤, �
 ## Repository Purpose
 
 이 저장소는 학습 과정에서 다룬 개념, 실습 코드, 프로젝트 경험을 체계적으로 정리하기 위한 공간입니다.
-
 각 기술을 단순히 학습하는 데 그치지 않고, 실제 웹 서비스와 데이터 예측 프로젝트에 적용하며 개발 역량을 확장하는 것을 목표로 합니다. 또한 학습 내용을 꾸준히 기록하여 개인 포트폴리오와 성장 기록으로 활용하고자 합니다.

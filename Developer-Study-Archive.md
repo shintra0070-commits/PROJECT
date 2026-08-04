@@ -34,19 +34,22 @@ Python 기반 데이터 분석, 머신러닝, 딥러닝, 자연어 처리와 LLM
 
 ## Tech Stack
 
-| Category          | Skills                                              |
-| ----------------- | --------------------------------------------------- |
-| Language          | Python, Java, SQL, JavaScript                       |
-| Data Analysis     | Pandas, NumPy                                       |
-| Machine Learning  | Scikit-learn                                        |
-| Deep Learning     | TensorFlow, Keras, ANN, DNN, RNN, LSTM, TextCNN     |
-| NLP & Transformer | Keras Tokenizer, KLUE-BERT, KoELECTRA, KcELECTRA    |
-| LLM               | Ollama, Gemma, Llama, LangChain, Prompt Engineering |
-| Visualization     | Matplotlib, Seaborn                                 |
-| Backend           | Spring Boot, Flask, REST API, JDBC                  |
-| Frontend          | React, React Router, Axios                          |
-| Database          | Oracle Database                                     |
-| Collaboration     | Git, GitHub, Pull Request                           |
+| Category                  | Skills                                                                 |
+| ------------------------- | ---------------------------------------------------------------------- |
+| **Programming Languages** | Python, Java, SQL, JavaScript                                          |
+| **Data Analysis**         | Pandas, NumPy                                                          |
+| **Machine Learning**      | Scikit-learn                                                           |
+| **Deep Learning**         | TensorFlow, Keras, ANN, DNN, CNN, RNN, LSTM                            |
+| **NLP & Transformers**    | Keras Tokenizer, KLUE-BERT, KoELECTRA, KcELECTRA                       |
+| **LLM Platform**          | Ollama                                                                 |
+| **LLM Framework**         | LangChain                                                              |
+| **LLM Models**            | Gemma, Llama 2, Llama 3, Qwen 2.5, Phi-3 Mini, Vicuna, Mistral, Falcon |
+| **LLM Techniques**        | Prompt Engineering                                                     |
+| **Backend**               | Spring Boot, Flask, REST API, JDBC                                     |
+| **Frontend**              | React, React Router, Axios                                             |
+| **Database**              | Oracle Database                                                        |
+| **Visualization**         | Matplotlib, Seaborn                                                    |
+| **Collaboration & Tools** | Git, GitHub, Notion, Google Drive                                      |
 
 <br>
 
@@ -90,7 +93,7 @@ Python 기반 데이터 분석, 머신러닝, 딥러닝, 자연어 처리와 LLM
 #### 딥러닝 모델 이해
 
 딥러닝은 인공신경망을 기반으로 복잡한 데이터의 특징을 자동으로 학습하는 머신러닝의 한 분야입니다.  
-TensorFlow와 Keras를 활용하여 ANN, DNN, CNN 모델의 구조를 학습하고, 데이터 특성에 따라 분류와 회귀 문제에 적용했습니다. 또한 LLM의 기본 개념과 자연어 처리 분야에서의 활용 방식을 함께 학습했습니다.
+TensorFlow와 Keras를 활용하여 ANN, DNN, RNN, CNN 모델의 구조를 학습하고, 데이터 특성에 따라 분류와 회귀 문제에 적용했습니다. 또한 LLM의 기본 개념과 자연어 처리 분야에서의 활용 방식을 함께 학습했습니다.
 
 | 유형             | 설명                                                                 | 주요 개념                                                        | 성능 평가                                          |
 | ---------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------- |
